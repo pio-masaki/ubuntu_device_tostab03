@@ -1,5 +1,5 @@
-# Inherit device configuration for tf101.
-$(call inherit-product, device/toshiba/tostab03/full_tostab03.mk)
+# Inherit device configuration for tostab03.
+$(call inherit-product, device/toshiba/tostab03/tostab03.mk)
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
