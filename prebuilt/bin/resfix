@@ -1,0 +1,11 @@
+#!/system/bin/sh
+
+device="/data/ubuntu/etc/ubuntu-session.d/tostab03.conf"
+
+
+if [ ! -f $device ]
+then
+echo "installing device file"
+  cp /system/etc/ubuntu-session.d/tostab03.conf $device
+  chmod 644 $device
+fi
